@@ -26,7 +26,7 @@
 			@include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
 			position: relative;
 			margin-top: 3.5rem;
-
+/*
 			&:before {
 				content: '';
 				display: block;
@@ -37,6 +37,7 @@
 				height: calc(3.5rem + 1px);
 				background: _palette(border);
 			}
+*/
 		}
 
 		> :first-child {
@@ -51,7 +52,7 @@
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid _size(border-width) _palette(border);
+			// border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
 
 			.icon {
